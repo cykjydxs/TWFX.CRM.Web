@@ -34,7 +34,7 @@
     </el-col>
 
     <!--列表-->
-    <el-table :data="resultData" highlight-current-row  border v-loading="listLoading" style="width: 100%;" :height="tableHeight"
+    <el-table :data="resultData" highlight-current-row  border v-loading="listLoading" style="width: 100%; " :height="tableHeight"
               :header-cell-style="this.Global.headerCellStyle" :cell-style="this.Global.cellStyle">
       <el-table-column type="index" width="50"  label="序号"  header-align="center"  align="center">
       </el-table-column>

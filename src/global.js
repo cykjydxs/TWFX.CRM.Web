@@ -4,31 +4,31 @@
 //WebApi地址（图片，文件地址）
 const webApiUrl='http://127.0.0.1:40001/';
 
+//样式
+//欢迎栏背景色配置[#347ebd,#0089dc,#1e89e0,#006bc7]
+const pageTopStyle={'background':'#347ebd'};
+//页面搜索条样式class（toolbar为控件自带，也可配置在MasterPage.vue）
+const pageToolBarClass='toolbar';
+//主列表Table表头样式
+//const headerCellStyle={'color':'#909399','background':'#F2F6FC'};
+const headerCellStyle={'color':'#606266','background':'#F2F6FC','font-size':'14px'};
+//与上面一样，未用
+function f_HeaderCellStyle({row, column, rowIndex, columnIndex}) {
+  return 'color:white;background-color:#347ebd';
+}
+//主列表Table单元格样式
+const cellStyle={'padding':'10px 0px','font-size':'14px'};
+//分页控件样式class（配置在MasterPage.vue）
+const pageBarClass='pageBarClass';
 
-//分页控件配置
+
+
+//主列表Table高度
+const pagetableHeight=window.innerHeight-270+'px';
 //分页控件每页显示条数
 const pageSize=10;
 //分页操作列控件类型，1：图标，2：button，3：文字
 const pageButtonType=1;
-
-
-//页面搜索条样式class（toolbar为控件自带，也可配置在MasterPage.vue）
-const pageToolBarClass='toolbar';
-//分页控件样式class（配置在MasterPage.vue）
-const pageBarClass='pageBarClass';
-//欢迎栏背景色配置[#347ebd,#0089dc,#1e89e0,#006bc7]
-const pageTopStyle={'background':'#347ebd'};
-//主列表Table高度
-const pagetableHeight=window.innerHeight-270+'px';
-//主列表Table表头样式
-//const headerCellStyle={'color':'#909399','background':'#F2F6FC'};
-const headerCellStyle={'color':'#606266','background':'#F2F6FC','font-size':'13px'};
-function f_HeaderCellStyle({row, column, rowIndex, columnIndex}) {
-  return 'color:white;background-color:#347ebd';
-}
-//单元格样式
-const cellStyle={'padding':'10px 0px','font-size':'13px'};
-
 //行政区域配置，空字符串：全国，具体区域用逗号分隔，如：'11,42'
 const cityConfig='36';
 

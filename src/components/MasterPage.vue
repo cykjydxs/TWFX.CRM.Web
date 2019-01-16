@@ -592,7 +592,7 @@
 </style>
 
 <style>
-  /*分页样式*/
+  /*分页控件样式*/
   .pageBarClass{
     margin-top: 20px;
   }

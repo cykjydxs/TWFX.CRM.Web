@@ -90,44 +90,44 @@ export default {
     width: 100%;
   }
 
+  /*菜单样式*/
   .el-submenu [class^=fa] {
     vertical-align: baseline;
     margin-right: 10px;
   }
-
   .el-menu-item [class^=fa] {
     vertical-align: baseline;
     margin-right: 10px;
   }
 
-  .toolbar {
-    background: #f2f2f2;
-    padding: 10px;
-    margin: 10px 0px;
-  }
+  /*表单样式全局*/
   .el-form-item {
     margin-bottom: 10px;
   }
-
-
   .fade-enter-active,
   .fade-leave-active {
     transition: all .2s ease;
   }
-
   .fade-enter,
   .fade-leave-active {
     opacity: 0;
   }
 
+  /*搜索栏样式*/
+  .toolbar {
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px 0px;
+  }
 
-  /*table表格线对齐兼容start*/
+
+  /*table表格线对齐兼容IEstart*/
   body .el-table th.gutter{
     display: table-cell!important;
   }
   body .el-table colgroup.gutter{
     display: table-cell!important;
   }
-  /*table表格线对齐兼容end*/
+  /*table表格线对齐兼容IEend*/
 
 </style>
