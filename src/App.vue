@@ -100,10 +100,12 @@ export default {
     margin-right: 10px;
   }
 
-  /*表单样式全局*/
+  /*表单样式*/
   .el-form-item {
     margin-bottom: 10px;
   }
+
+  /**/
   .fade-enter-active,
   .fade-leave-active {
     transition: all .2s ease;
@@ -120,6 +122,10 @@ export default {
     margin: 10px 0px;
   }
 
+  /*分页控件样式*/
+  .pageBarClass{
+    margin-top: 20px;
+  }
 
   /*table表格线对齐兼容IEstart*/
   body .el-table th.gutter{

@@ -4,6 +4,7 @@
 //WebApi地址（图片，文件地址）
 const webApiUrl='http://127.0.0.1:40001/';
 
+
 //样式
 //欢迎栏背景色配置[#347ebd,#0089dc,#1e89e0,#006bc7]
 const pageTopStyle={'background':'#347ebd'};
