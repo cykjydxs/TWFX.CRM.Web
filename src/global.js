@@ -26,6 +26,7 @@ const headerCellStyle={'color':'#606266','background':'#F2F6FC','font-size':'13p
 function f_HeaderCellStyle({row, column, rowIndex, columnIndex}) {
   return 'color:white;background-color:#347ebd';
 }
+//单元格样式
 const cellStyle={'padding':'10px 0px','font-size':'13px'};
 
 //行政区域配置，空字符串：全国，具体区域用逗号分隔，如：'11,42'
