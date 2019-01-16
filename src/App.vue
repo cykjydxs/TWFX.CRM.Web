@@ -81,6 +81,7 @@ export default {
     font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
+
   }
 
   #app {
@@ -117,7 +118,7 @@ export default {
 
   /*搜索栏样式*/
   .toolbar {
-    background: #f2f2f2;
+    background-color: #f9f9f9;
     padding: 10px;
     margin: 10px 0px;
   }

@@ -34,7 +34,7 @@
     </el-col>
 
     <!--列表-->
-    <el-table :data="resultData" highlight-current-row  border v-loading="listLoading" style="width: 100%;" :height="tableHeight"
+    <el-table :data="resultData" highlight-current-row  border v-loading="listLoading" style="width: 100%; " :height="tableHeight"
               :header-cell-style="this.Global.headerCellStyle" :cell-style="this.Global.cellStyle">
       <el-table-column type="index" width="50"  label="序号"  header-align="center"  align="center">
       </el-table-column>
@@ -49,7 +49,6 @@
       <el-table-column prop="Storagenaturename" label="仓库性质" min-width="80" show-overflow-tooltip  header-align="center"  align="center">
       </el-table-column>
       <el-table-column prop="Leasedatestr" label="租凭时间" min-width="150" show-overflow-tooltip  header-align="center"  >
-
       </el-table-column>
       <el-table-column prop="Isenable" label="启用" min-width="50" show-overflow-tooltip  header-align="center"   align="center">
         <template slot-scope="scope">
