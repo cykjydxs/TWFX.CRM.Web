@@ -4,11 +4,13 @@
 //WebApi地址（图片，文件地址）
 const webApiUrl='http://127.0.0.1:40001/';
 
+
 //分页控件配置
 //分页控件每页显示条数
 const pageSize=10;
 //分页操作列控件类型，1：图标，2：button，3：文字
 const pageButtonType=1;
+
 
 //页面搜索条样式class（toolbar为控件自带，也可配置在MasterPage.vue）
 const pageToolBarClass='toolbar';
@@ -28,6 +30,7 @@ const cellStyle={'padding':'10px 0px','font-size':'13px'};
 
 //行政区域配置，空字符串：全国，具体区域用逗号分隔，如：'11,42'
 const cityConfig='36';
+
 
 
 //方法============================================================================
