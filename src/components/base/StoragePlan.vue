@@ -4,7 +4,16 @@
 
 <script>
     export default {
-        name: "StoragePlan"
+      name: "StoragePlan",
+      data(){
+          return {
+
+          }
+      },
+      methods:{},
+      mounted(){
+
+      }
     }
 </script>
 

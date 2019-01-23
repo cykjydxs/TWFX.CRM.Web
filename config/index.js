@@ -47,6 +47,7 @@ module.exports = {
 
     /**
      * Source Maps
+     * productionSourceMap=ture表示可看到源文件，false表示看不到
      */
 
     productionSourceMap: false,
