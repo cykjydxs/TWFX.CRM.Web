@@ -2,23 +2,17 @@
 
 > TWFX.CRM.Web
 
+
+基于Vue+Element的仓储管理系统，完整实现了整个流程。
+
+该项目为前后端分离项目，API自行搭建
+
+如果该项目对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！
+
+
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
 
